@@ -1,0 +1,37 @@
+/* --- General Body Styles --- */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgray;
+    scroll-behavior: smooth;
+    background-image: url('https://images.pexels.com/photos/7429466/pexels-photo-7429466.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    border:3px solid brown ;
+}
+#main-heading {
+    color: blanchedalmond;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 5px 10px;
+    border: 2px solid gray;
+    background-color: blanchedalmond;
+}
+.navbar li {
+    margin-right: 60px;
+}
+.navbar a {
+    font-weight: bold;
+    color: black;
+}
+.main-nav {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
